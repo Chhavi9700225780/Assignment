@@ -29,6 +29,28 @@ const ProfilePage = () => {
 
 	const { follow, isPending } = useFollow();
 	const { data: authUser } = useQuery({ queryKey: ["authUser"] });
+    
+	const {
+		data: posts,
+		
+	} = useQuery({
+		queryKey: ["posts"],
+		queryFn: async () => {
+			try {
+				const res = await fetch(POST_ENDPOINT);
+				const data = await res.json();
+
+				if (!res.ok) {
+					throw new Error(data.error || "Something went wrong");
+				}
+
+				return data;
+			} catch (error) {
+				throw new Error(error);
+			}
+		},
+	});
+
 
 	const {
 		data: user,
@@ -88,7 +110,7 @@ const ProfilePage = () => {
 								</Link>
 								<div className='flex flex-col'>
 									<p className='font-bold text-lg'>{user?.fullName}</p>
-									<span className='text-sm text-slate-500'>{Posts?.length - 1} posts</span>
+									<span className='text-sm text-slate-500'>{posts?.length } posts</span>
 								</div>
 							</div>
 							{/* COVER IMG */}
