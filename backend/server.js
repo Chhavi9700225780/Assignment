@@ -50,6 +50,3 @@ app.listen(PORT, () => {
 	connectMongoDB();
 });
 
-app.get('/',(req,res)=>{
-      console.log("Hello");
-})
