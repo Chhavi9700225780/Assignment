@@ -12,23 +12,9 @@ import notificationRoutes from "./routes/notification.route.js";
 import connectMongoDB from "./db/connectMongoDB.js";
 const app = express();
 dotenv.config();
-const corsOptions = {
-	// origin: "http://localhost:5173",
-	origin: (origin, callback) => {
-	  // Check if the origin is allowed
-	  const allowedOrigins = [
-		"http://localhost:5173",
-		"http://localhost:3000",
-		
-	  ];
-	  const isAllowed = allowedOrigins.includes(origin);
-	  callback(null, isAllowed ? origin : false);
-	},
-	methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
-	credentials: true,
-  };
+
   
-  app.use(cors(corsOptions));
+  app.use(cors());
   
 cloudinary.config({
 	cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
