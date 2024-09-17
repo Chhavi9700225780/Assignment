@@ -21,7 +21,7 @@ export const SearchBar = ({ setResults }) => {
               value &&
               user &&
               user.username &&
-              user.username.includes(value)
+              user.username.toUpperCase().includes(value.toUpperCase())
             );
           });
         
@@ -46,7 +46,7 @@ export const SearchBar = ({ setResults }) => {
     <div className="input-wrapper">
       <FaSearch id="search-icon" />
       <input
-        placeholder="Type to search..."
+        placeholder="  Type to search..."
         value={input}
         onChange={(e) => handleChange(e.target.value)}
       />

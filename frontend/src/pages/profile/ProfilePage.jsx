@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Posts from "../../components/common/Posts";
 import ProfileHeaderSkeleton from "../../components/skeletons/ProfileHeaderSkeleton";
 import EditProfileModal from "./EditProfileModal";
-
+import CreatePost from "../home/CreatePost";
 import { POSTS } from "../../utils/db/dummy";
 
 import { FaArrowLeft } from "react-icons/fa6";
@@ -144,8 +144,8 @@ const ProfilePage = () => {
 										onClick={() => follow(user?._id)}
 									>
 										{isPending && "Loading..."}
-										{!isPending && amIFollowing && "Unfollow"}
-										{!isPending && !amIFollowing && "Follow"}
+										{!isPending && amIFollowing && "Unfriend"}
+										{!isPending && !amIFollowing && "Friend"}
 									</button>
 								)}
 								{(coverImg || profileImg) && (
@@ -202,6 +202,7 @@ const ProfilePage = () => {
 									</div>
 								</div>
 							</div>
+							<CreatePost />
 							<div className='flex w-full border-b border-gray-700 mt-4'>
 								<div
 									className='flex justify-center flex-1 p-3 hover:bg-secondary transition duration-300 relative cursor-pointer'
@@ -224,7 +225,7 @@ const ProfilePage = () => {
 							</div>
 						</>
 					)}
-
+                     
 					<Posts feedType={feedType} username={username} userId={user?._id} />
 				</div>
 			</div>
