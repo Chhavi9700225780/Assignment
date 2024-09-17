@@ -54,7 +54,6 @@ Some Features:
 ## 🚩 Mobile View 
 
 ![eleventh](https://github.com/user-attachments/assets/347ae92d-657f-448a-bb67-593672012a0e)
-![Sixth](https://github.com/user-attachments/assets/3b8a37ea-7977-4eb0-92eb-67eb59d4471a)
 ![ninth](https://github.com/user-attachments/assets/dc1ebd22-52e7-46f5-b078-11f2454ef3b3)
 ![ten](https://github.com/user-attachments/assets/022d5928-1788-47ac-91ce-f12924070444)
 
