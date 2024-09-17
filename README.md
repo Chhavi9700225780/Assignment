@@ -1,7 +1,5 @@
 # MERN Stack Project: Friend Recommandation System
 
-![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)
-
 ## 📌 About the project 
 This project was intentionally built for the Fun. This project is helpful for gaining awareness about keeping yourself safe in the cyber space and get out of the zone of becomming an easy target
 
@@ -34,23 +32,29 @@ Some Features:
 ## 🚩 Home Page :
 ![Second](https://github.com/user-attachments/assets/84d966b2-2ebd-4c6e-b140-993fab909540)
 
-## 🚩 Home Page :
+## 🚩 Profile Page :
 
 ![Third](https://github.com/user-attachments/assets/24b39b80-9538-48de-8b37-a6d2f6daa5d2)
 
-## 🚩 Home Page :
+## 🚩 Posts and Create Post Page :
 
 ![Fourth](https://github.com/user-attachments/assets/5ba1e1f5-e33d-4e9d-bbeb-6737f7b59869)
 
-## 🚩 Home Page :
+## 🚩 Search Bar Page :
 ![Fifth](https://github.com/user-attachments/assets/a681da61-37cc-4e4b-9e6c-5d433d9b7ee6)
 
-## 🚩 Home Page :
+## 🚩 My Friends Page :
+
+![Sixth](https://github.com/user-attachments/assets/3b8a37ea-7977-4eb0-92eb-67eb59d4471a)
+
+## 🚩 Notification Page :
+
+![eight](https://github.com/user-attachments/assets/11647db8-acd2-47a5-aea5-11d47691e922)
+
+## 🚩 Mobile View 
+
 ![eleventh](https://github.com/user-attachments/assets/347ae92d-657f-448a-bb67-593672012a0e)
-
-
 ![Sixth](https://github.com/user-attachments/assets/3b8a37ea-7977-4eb0-92eb-67eb59d4471a)
 ![ninth](https://github.com/user-attachments/assets/dc1ebd22-52e7-46f5-b078-11f2454ef3b3)
 ![ten](https://github.com/user-attachments/assets/022d5928-1788-47ac-91ce-f12924070444)
 
-![eight](https://github.com/user-attachments/assets/11647db8-acd2-47a5-aea5-11d47691e922)
